@@ -1,12 +1,9 @@
-
 version: 2
 
 models:
-  - name: customers
-    description: "A scustomer model"
+  - name: stg_customers
     columns:
       - name: customer_id
-        description: "The primary key for this table"
         tests:
           - unique
           - not_null
