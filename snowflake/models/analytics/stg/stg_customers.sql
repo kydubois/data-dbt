@@ -1,3 +1,10 @@
+{{
+  config(
+    materialized='table',
+    schema='stg'
+  )
+}}
+
 select
     id as customer_id,
     first_name,

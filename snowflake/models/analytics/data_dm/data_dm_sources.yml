@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: data_dm
+      database: analytics
+      schema: data_dm
+      tables:
+          - name: customers
+            description: One record per customer.
