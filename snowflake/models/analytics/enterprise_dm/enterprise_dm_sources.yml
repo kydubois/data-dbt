@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: enterprise_dm
+      database: analytics
+      schema: enterprise_dm
+      tables:
+          - name: customers
+            description: One record per customer.
