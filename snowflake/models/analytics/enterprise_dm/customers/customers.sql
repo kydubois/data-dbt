@@ -1,7 +1,7 @@
 {{
   config(
     materialized='table',
-    schema='data_dm'
+    schema='enterprise_dm'
   )
 }}
 

@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-    - name: data_dm
+    - name: enterprise_dm
       database: analytics
-      schema: data_dm
+      schema: enterprise_dm
       tables:
           - name: customers
             description: One record per customer.
