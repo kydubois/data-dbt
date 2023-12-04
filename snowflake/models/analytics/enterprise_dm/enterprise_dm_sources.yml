@@ -5,5 +5,7 @@ sources:
       database: analytics
       schema: enterprise_dm
       tables:
-          - name: customers
+          - name: dim_customers
             description: One record per customer.
+          - name: fct_orders
+            description: Customer orders
